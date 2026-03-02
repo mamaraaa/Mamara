@@ -1,0 +1,509 @@
+
+=========================================================================
+J-Runner with Extras
+Session: 05/05/2025 21:25:39
+Version: 3.3.0 r4
+Status: Up to date
+
+Initializing 21256.18_17489_devgl_jasperbigffs.bin, please wait...
+Nand Initialization Finished
+
+Initializing 21256.18_17489_devgl_jasperbigffs.bin, please wait...
+CPU Key is Correct
+Added Key to Database
+Nand Initialization Finished
+
+SMC Config Patch Successful
+Initializing 21256.18_17489_devgl_jasperbigffs.bin, please wait...
+Nand Initialization Finished
+
+Extracting Files...
+Saving SMC_en.bin
+Saving SMC_dec.bin
+Saving KV_en.bin
+Saving KV_dec.bin
+Saving smc_config.bin
+Location: E:\Xbox 360\RGH JTAG\J-Runner-with-Extras\output\Extracts-150273303105
+Done
+
+Initializing 21256.18_17489_devgl_jasperbigffs.bin, please wait...
+Nand Initialization Finished
+
+SMC Config Patch Successful
+Initializing 21256.18_17489_devgl_jasperbigffs.bin, please wait...
+Nand Initialization Finished
+
+Initializing 21256.18_17489_xdkbuild0_jasperbigffs.bin, please wait...
+Nand Initialization Finished
+
+Jasper 16MB Manually Selected
+Glitch2 selected
+=======================
+Starting Donor Nand Creation
+Clean SMC selected
+Copying Files Into Place...
+Copied KV.bin
+Copied smc_config.bin
+XeBuild Initialized
+Kernel Selected: 17559
+---------------------------------------------------------------
+     xeBuild v1.21.810
+---------------------------------------------------------------
+base path changed to E:\Xbox 360\RGH JTAG\J-Runner-with-Extras\xeBuild
+---- { Image Build Mode } ----
+building glitch2 image
+
+***** WARNING: cfldv was not set anywhere, setting it to 1
+      please set it in ini or on command line and rebuild!
+
+******* WARNING: could not verify pre-decrypted keyvault, please be sure your provided a valid kv.bin!
+---------------------------------------------------------------
+E:\Xbox 360\RGH JTAG\J-Runner-with-Extras\114156393705\updflash.bin image built, info:
+---------------------------------------------------------------
+Kernel    : 2.0.17559.0
+Console   : Jasper
+NAND size : 16MiB
+Build     : Glitch (v2)
+Xell      : power on console with console eject button
+Serial    : 114156393705
+ConsoleId : 024831327202
+MoboSerial: 7056649200489375
+Mfg Date  : 09/09/2009
+CPU Key   : 55555555555555555555555555D9AEE2
+1BL Key   : DD88AD0C9ED669E7B56794FB68563EFA
+DVD Key   : 2E05AD718DB6919B66B09C1C54EE34B8
+CF LDV    : 1
+KV type   : type2 (hashed - unchecked, master key not available)
+---------------------------------------------------------------
+    xeBuild Finished. Have a nice day.
+---------------------------------------------------------------
+Saved to E:\Xbox 360\RGH JTAG\J-Runner-with-Extras\114156393705
+Image is Ready
+Initializing updflash.bin, please wait...
+Nand Initialization Finished
+
+
+=========================================================================
+J-Runner with Extras
+Session: 05/05/2025 21:40:31
+Version: 3.3.0 r4
+Status: Up to date
+
+Initializing xdkbuild_jasperbigffs_zero.bin, please wait...
+Nand Initialization Finished
+
+xFlasher: Checking Console...
+Flash Config: 0x00AA3020
+Jasper, Trinity: 512MB
+
+xFlasher: Writing xdkbuild_jasperbigffs_zero.bin to Nand
+xFlasher: Write Successful! Time Elapsed: 2:24 min(s)
+
+Initializing devgl_17559_tonasketbb.bin, please wait...
+Nand Initialization Finished
+
+xFlasher: Checking Console...
+Flash Config: 0x00AA3020
+Jasper, Trinity: 512MB
+
+xFlasher: Writing devgl_17559_tonasketbb.bin to Nand
+xFlasher: Write Successful! Time Elapsed: 2:19 min(s)
+
+Initializing xdkbuild_jasperbigffs_zero.bin, please wait...
+Nand Initialization Finished
+
+xFlasher: Waiting for device to become ready
+xFlasher: Checking Console...
+Flash Config: 0x00AA3020
+Jasper, Trinity: 512MB
+
+xFlasher: Writing xdkbuild_jasperbigffs_zero.bin to Nand
+xFlasher: Write Successful! Time Elapsed: 2:30 min(s)
+
+Initializing xdkbuild_jasperbigffs_zero.bin, please wait...
+Nand Initialization Finished
+
+xFlasher: Waiting for device to become ready
+xFlasher: Checking Console...
+Flash Config: 0x00AA3020
+Jasper, Trinity: 512MB
+
+xFlasher: Writing xdkbuild_jasperbigffs_zero.bin to Nand
+xFlasher: Write Successful! Time Elapsed: 2:22 min(s)
+
+
+=========================================================================
+J-Runner with Extras
+Session: 05/06/2025 15:25:01
+Version: 3.3.0 r4
+Status: Up to date
+
+xFlasher: Checking Console...
+Flash Config: 0x01198030
+Xenon, Zephyr, Falcon: 64MB
+
+xFlasher: 2 Nand Reads Queued
+xFlasher: Reading Nand to E:\Xbox 360\RGH JTAG\J-Runner-with-Extras\output\nanddump1.bin
+xFlasher: Read Successful! Time Elapsed: 3:05 min(s)
+
+Initializing nanddump1.bin, please wait...
+Nand Initialization Finished
+
+xFlasher: Reading Nand to E:\Xbox 360\RGH JTAG\J-Runner-with-Extras\output\nanddump2.bin
+xFlasher: Read Successful! Time Elapsed: 3:05 min(s)
+
+Comparing, please wait...
+Nands are the same
+
+SMC Config Patch Successful
+Initializing nanddump1.bin, please wait...
+Nand Initialization Finished
+
+Initializing nanddump1.bin, please wait...
+CPU Key is Correct
+Added Key to Database
+Moving files to E:\Xbox 360\RGH JTAG\J-Runner-with-Extras\600735753306
+Nand Initialization Finished
+
+xFlasher: Checking Console...
+Flash Config: 0x01198030
+Xenon, Zephyr, Falcon: 64MB
+
+xFlasher: Writing nanddump1.bin to Nand
+xFlasher: Write Successful! Time Elapsed: 2:33 min(s)
+
+
+=========================================================================
+J-Runner with Extras
+Session: 05/06/2025 15:39:32
+Version: 3.3.0 r4
+Status: Up to date
+
+Initializing nanddump1.bin, please wait...
+Nand Initialization Finished
+
+SMC Config Patch Successful
+Initializing nanddump1.bin, please wait...
+Nand Initialization Finished
+
+xFlasher: Checking Console...
+Flash Config: 0x01198030
+Xenon, Zephyr, Falcon: 64MB
+
+xFlasher: Writing nanddump1.bin to Nand
+xFlasher: Write Successful! Time Elapsed: 2:33 min(s)
+
+
+=========================================================================
+J-Runner with Extras
+Session: 05/06/2025 16:04:54
+Version: 3.3.0 r4
+Status: Up to date
+
+Initializing updflash.bin, please wait...
+Nand Initialization Finished
+
+Device Not Found
+
+xFlasher: Waiting for device to become ready
+xFlasher: Checking Console...
+Flash Config: 0x01198030
+Xenon, Zephyr, Falcon: 64MB
+
+xFlasher: Writing updflash.bin to Nand
+xFlasher: Write Successful! Time Elapsed: 2:27 min(s)
+
+Initializing nanddump1.bin, please wait...
+Nand Initialization Finished
+
+xFlasher: Checking Console...
+Flash Config: 0x01198030
+Xenon, Zephyr, Falcon: 64MB
+
+xFlasher: Writing nanddump1.bin to Nand
+xFlasher: Write Successful! Time Elapsed: 2:32 min(s)
+
+
+=========================================================================
+J-Runner with Extras
+Session: 05/09/2025 0:48:40
+Version: 3.3.0 r4
+Status: Up to date
+
+Initializing 1838_1.bin, please wait...
+xFlasher: Checking Console...
+Flash Config: 0x01198030
+Xenon, Zephyr, Falcon: 64MB
+
+xFlasher: Writing 1838_1.bin to Nand
+xFlasher: Write Successful! Time Elapsed: 2:42 min(s)
+
+
+=========================================================================
+J-Runner with Extras
+Session: 05/09/2025 14:32:17
+Version: 3.3.0 r4
+Status: Up to date
+
+
+=========================================================================
+J-Runner with Extras
+Session: 05/10/2025 18:14:46
+Version: 3.3.0 r4
+Status: Up to date
+
+Initializing 1838_1.bin, please wait...
+xFlasher: Checking Console...
+Flash Config: 0x01198030
+Xenon, Zephyr, Falcon: 64MB
+
+xFlasher: Writing 1838_1.bin to Nand
+xFlasher: Cancelled
+
+Initializing XeDK 1852.bin, please wait...
+xFlasher: Checking Console...
+Flash Config: 0x01198030
+Xenon, Zephyr, Falcon: 64MB
+
+xFlasher: Writing XeDK 1852.bin to Nand
+xFlasher: Write Successful! Time Elapsed: 2:40 min(s)
+
+
+=========================================================================
+J-Runner with Extras
+Session: 05/10/2025 18:23:48
+Version: 3.3.0 r4
+Status: Up to date
+
+xFlasher: Checking Console...
+Flash Config: 0x01198030
+Xenon, Zephyr, Falcon: 64MB
+
+xFlasher: 2 Nand Reads Queued
+xFlasher: Reading Nand to E:\Xbox 360\RGH JTAG\J-Runner-with-Extras\output\nanddump1.bin
+xFlasher: Read Successful! Time Elapsed: 3:05 min(s)
+
+Initializing nanddump1.bin, please wait...
+xFlasher: Reading Nand to E:\Xbox 360\RGH JTAG\J-Runner-with-Extras\output\nanddump2.bin
+xFlasher: Read Successful! Time Elapsed: 3:05 min(s)
+
+Comparing, please wait...
+Nands are the same
+
+
+=========================================================================
+J-Runner with Extras
+Session: 05/14/2025 21:44:57
+Version: 3.3.0 r4
+Status: Up to date
+
+WARNING - Working Folder!
+Your working folder is not empty, click Show Working Folder to view its contents
+
+
+=========================================================================
+J-Runner with Extras
+Session: 08/08/2025 2:10:50
+Version: 3.3.0 r4
+Status: Up to date
+
+WARNING - Working Folder!
+Your working folder is not empty, click Show Working Folder to view its contents
+
+
+=========================================================================
+J-Runner with Extras
+Session: 08/08/2025 3:02:48
+Version: 3.3.0 r4
+Status: Up to date
+
+WARNING - Working Folder!
+Your working folder is not empty, click Show Working Folder to view its contents
+
+
+=========================================================================
+J-Runner with Extras
+Session: 08/08/2025 3:02:55
+Version: 3.3.0 r4
+Status: Up to date
+
+WARNING - Working Folder!
+Your working folder is not empty, click Show Working Folder to view its contents
+
+Initializing nanddump2.bin, please wait...
+Initializing devgl_17559_jasper.bin, please wait...
+Nand Initialization Finished
+
+Initializing devgl_17559_jasper.bin, please wait...
+Nand Initialization Finished
+
+
+=========================================================================
+J-Runner with Extras
+Session: 10/01/2025 15:06:07
+Version: 3.3.0 r4
+Status: Up to date
+
+WARNING - Working Folder!
+Your working folder is not empty, click Show Working Folder to view its contents
+
+
+=========================================================================
+J-Runner with Extras
+Session: 10/01/2025 15:06:17
+Version: 3.3.0 r4
+Status: Up to date
+
+
+=========================================================================
+J-Runner with Extras
+Session: 10/01/2025 15:07:23
+Version: 3.3.0 r4
+Status: Up to date
+
+
+=========================================================================
+J-Runner with Extras
+Session: 02/05/2026 22:12:58
+Version: 3.4.0 r2
+Status: Up to date
+
+Xenon 16MB Manually Selected
+Glitch2m selected
+Glitch2m selected
+XDKbuild selected
+XDKbuild deselected
+XDKbuild selected
+XDKbuild deselected
+Glitch2 selected
+Glitch2m selected
+Glitch2 selected
+Falcon 16MB Manually Selected
+Glitch2 selected
+Glitch2 selected
+
+=========================================================================
+J-Runner with Extras
+Session: 02/05/2026 22:52:35
+Version: 3.4.0 r2
+Status: Up to date
+
+
+=========================================================================
+J-Runner with Extras
+Session: 02/05/2026 22:52:45
+Version: 3.3.0 r4
+Status: Up to date
+
+Initializing updflash.bin, please wait...
+Glitch2 selected
+RGH3 selected
+Nand Initialization Finished
+
+
+=========================================================================
+J-Runner with Extras
+Session: 02/12/2026 14:13:13
+Version: 3.3.0 r4
+Status: Up to date
+
+
+=========================================================================
+J-Runner with Extras
+Session: 02/18/2026 17:00:22
+Version: 3.3.0 r4
+Status: Up to date
+
+
+=========================================================================
+J-Runner with Extras
+Session: 03/01/2026 22:07:33
+Version: 3.4.0 r2
+Status: Up to date
+
+Scan Stage 1: Finding IPs...
+Scan Stage 2: Searching IPs...
+No Xbox in XeLL detected
+
+Connection Timeout
+Initializing flashdmp.bin, please wait...
+Glitch2 selected
+Nand Initialization Finished
+
+noreeb selected
+noreeb deselected
+noava selected
+---------------------------------------------------------------
+     xeBuild v1.21.810
+---------------------------------------------------------------
+base path changed to C:\Users\amara\Desktop\xbox 360\xeBuild
+---- { Client Mode } ----
+patch file set to D:\xbox 360 usb\Simple 360 NAND Flasher\flashdmp.bin
+<enter> key on completion suppressed
+started, watching network for xbox...UDP wait timeout!
+failed to find xbox beacon
+
+
+***** ERROR: unable to connect to xbox server
+---------------------------------------------------------------
+    xeBuild Finished. Have a nice day.
+---------------------------------------------------------------
+Extracting Files...
+Saving SMC_en.bin
+Saving SMC_dec.bin
+Saving KV_en.bin
+Saving KV_dec.bin
+Saving smc_config.bin
+Working...
+Saving fcrt_en.bin
+Saving fcrt_dec.bin
+Saving C-R.bin
+Saving C-R_ltuV1.bin
+Saving key.bin
+Location: C:\Users\amara\Desktop\xbox 360\output\Extracts-001162422209
+Done
+
+Processing KV...
+KV Patch Successful
+Patch Successful
+Initializing flashdmp.bin, please wait...
+Nand Initialization Finished
+
+Device Not Found
+
+XeBuild Initialized
+Kernel Selected: 17559
+KV Info saved to file
+---------------------------------------------------------------
+     xeBuild v1.21.810
+---------------------------------------------------------------
+base path changed to C:\Users\amara\Desktop\xbox 360\xeBuild
+---- { Image Build Mode } ----
+building glitch2 image
+
+done! fsroot found ok!
+---------------------------------------------------------------
+C:\Users\amara\Desktop\xbox 360\001162422209\updflash.bin image built, info:
+---------------------------------------------------------------
+Kernel    : 2.0.17559.0
+Console   : Corona
+NAND size : 16MiB
+Build     : Glitch (v2)
+Xell      : power on console with console eject button
+Serial    : 001162422209
+ConsoleId : 014645532437
+MoboSerial: 9909951106112219
+Mfg Date  : 03/01/2026
+CPU Key   : 5CBA860E547B23D8ED14849AFEC19B3F
+1BL Key   : DD88AD0C9ED669E7B56794FB68563EFA
+DVD Key   : 374C4C5931B7F086066F97B03041B0FE
+CF LDV    : 5
+KV type   : type2 (hashed - unchecked, master key not available)
+---------------------------------------------------------------
+    xeBuild Finished. Have a nice day.
+---------------------------------------------------------------
+Saved to C:\Users\amara\Desktop\xbox 360\001162422209
+Image is Ready
+Initializing updflash.bin, please wait...
+Nand Initialization Finished
+
